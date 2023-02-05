@@ -19,7 +19,7 @@ class Blacklist
      *
      * @var \HyperfExt\Jwt\Contracts\StorageInterface
      */
-    protected $storage;
+    protected  $storage;
 
     /**
      * The grace period when a token is blacklisted. In seconds.
